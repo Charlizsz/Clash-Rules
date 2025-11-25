@@ -1,0 +1,17 @@
+# >> Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
+
+# >> GitHub Copilot
+# api.*.githubcopilot.com is not required, since the ip & asn information are coming from api.github.com
+# see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
+# go HK so dont need
+;DOMAIN,api.github.com
+
+# >> Grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+# >> JetBrains AI
+DOMAIN,api.jetbrains.ai
