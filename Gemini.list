@@ -1,0 +1,49 @@
+# UPDATED 2025.11.25
+# Source https://github.com/SukkaW/Surge/blob/master/Source/non_ip/ai.conf
+# Others Source https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Gemini/Gemini.list
+
+# >> Google Gemini
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+
+# >> Google DeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+
+# >> Google Generative Language API
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-REGEX,^.*-pa\.googleapis\.com$
+
+# >> Google AI Studio
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-REGEX,^.*-pa\.clients6\.google\.com$
+
+# >> Google NotebookLM
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# >> Google Jules
+DOMAIN,jules.google.com
+
+# Antigravity
+DOMAIN,antigravity.google
+
+# Others
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+
+DOMAIN-SUFFIX,c.gle
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN,aida.googleapis.com
