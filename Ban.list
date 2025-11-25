@@ -1,2 +1,4 @@
-  DOMAIN,supportmetrics.apple.com
-  DOMAIN,metrics.icloud.com
+# Some ad domains need to be pinned to the top.
+
+DOMAIN,supportmetrics.apple.com
+DOMAIN,metrics.icloud.com
