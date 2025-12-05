@@ -61,3 +61,4 @@ DOMAIN-KEYWORD,contacts
 DOMAIN-KEYWORD,caldav
 DOMAIN-KEYWORD,fmfmobile
 DOMAIN-REGEX,^.+-quota\.icloud\.com$
+DOMAIN-SUFFIX,iosapps.itunes.apple.com
