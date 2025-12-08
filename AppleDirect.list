@@ -29,7 +29,8 @@ DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 
 # Apple Unknown Special
-DOMAIN,developer.apple.com
+DOMAIN,p14-buy.itunes.apple.com
+DOMAIN,p12-buy.itunes.apple.com
 DOMAIN,supportmetrics.apple.com
 DOMAIN,weather-edge.apple.com
 DOMAIN,kt-prod.ess.apple.com
@@ -62,3 +63,4 @@ DOMAIN-KEYWORD,caldav
 DOMAIN-KEYWORD,fmfmobile
 DOMAIN-REGEX,^.+-quota\.icloud\.com$
 DOMAIN-SUFFIX,iosapps.itunes.apple.com
+DOMAIN-SUFFIX,developer.apple.com
