@@ -38,6 +38,9 @@ DOMAIN,known-issues.apple.com
 DOMAIN,wps.apple.com
 DOMAIN,radarsubmissions.apple.com
 DOMAIN,setup.icloud.com
+DOMAIN,lcdn-registration.apple.com
+DOMAIN,lcdn-locator.apple.com
+DOMAIN,xp-cdn.apple.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,calendars.icloud.com
 DOMAIN-SUFFIX,mail.me.com.akadns.net
@@ -64,3 +67,4 @@ DOMAIN-KEYWORD,fmfmobile
 DOMAIN-REGEX,^.+-quota\.icloud\.com$
 DOMAIN-SUFFIX,iosapps.itunes.apple.com
 DOMAIN-SUFFIX,developer.apple.com
+
