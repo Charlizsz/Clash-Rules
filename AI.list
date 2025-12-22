@@ -20,3 +20,6 @@ DOMAIN,api.jetbrains.ai
 # >> OpenRouter AI - Unified Relay
 # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
 DOMAIN,openrouter.ai
+
+# Meta
+DOMAIN-SUFFIX,meta.ai
