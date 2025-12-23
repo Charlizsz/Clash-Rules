@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-KEYWORD,openai
 
-
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
