@@ -41,6 +41,7 @@ DOMAIN,setup.icloud.com
 DOMAIN,lcdn-registration.apple.com
 DOMAIN,lcdn-locator.apple.com
 DOMAIN,xp-cdn.apple.com
+DOMAIN,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,calendars.icloud.com
 DOMAIN-SUFFIX,mail.me.com.akadns.net
