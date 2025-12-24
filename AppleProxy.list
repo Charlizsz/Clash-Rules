@@ -1,7 +1,5 @@
 # No China CDN
 
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,cdn.apple-cloudkit.com
 DOMAIN,cvws.icloud-content.com
@@ -9,15 +7,8 @@ DOMAIN,developer.apple.com
 DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,docs-assets.developer.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,hls-svod.itunes.apple.com
 DOMAIN,js-cdn.music.apple.com
-DOMAIN,mask-api.fe.apple-dns.net
-DOMAIN,mask-api.icloud.com
-DOMAIN,mask-h2.icloud.com
-DOMAIN,mask-t.apple-dns.net
-DOMAIN,mask.apple-dns.net
-DOMAIN,mask.icloud.com
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
@@ -38,4 +29,3 @@ DOMAIN-SUFFIX,hls-amt.itunes.apple.com
 DOMAIN-SUFFIX,hls.itunes.apple.com
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,safebrowsing.apple
-DOMAIN-SUFFIX,tv.apple.com
