@@ -37,6 +37,8 @@ DOMAIN,jules.google.com
 
 # Antigravity
 DOMAIN,antigravity.google
+DOMAIN,antigravity-unleash.goog
+DOMAIN,daily-cloudcode-pa.googleapis.com
 
 # Others
 DOMAIN-SUFFIX,apis.google.com
