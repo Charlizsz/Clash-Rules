@@ -14,6 +14,7 @@ DOMAIN,functional.events.data.microsoft.com
 DOMAIN,www.bingapis.com
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
+DOMAIN-KEYWORD,copilot-microsoft-com
 
 DOMAIN,api.msn.com
 DOMAIN,assets.msn.com
