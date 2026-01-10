@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,g.ai
 
 DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
