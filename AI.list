@@ -21,5 +21,6 @@ DOMAIN,api.jetbrains.ai
 # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
 DOMAIN,openrouter.ai
 
-# Meta
-DOMAIN-SUFFIX,meta.ai
+# Meta ##All domain included in meta.list
+#DOMAIN-SUFFIX,meta.ai
+#DOMAIN-SUFFIX,ai.meta.com
