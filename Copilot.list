@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
 DOMAIN-KEYWORD,copilot-microsoft-com
 
 DOMAIN,api.msn.com
+DOMAIN,img-s-msn-com.akamaized.net
 DOMAIN,assets.msn.com
 DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
