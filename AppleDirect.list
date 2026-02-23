@@ -59,8 +59,6 @@ DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,time.apple.com
 DOMAIN-SUFFIX,time.asia.apple.com
 DOMAIN-SUFFIX,time-ios.g.aaplimg.com
-DOMAIN-SUFFIX,ocsp.apple.com
-DOMAIN-SUFFIX,ocsp2.apple.com
 DOMAIN-SUFFIX,cstat.cdn-apple.com
 DOMAIN-SUFFIX,gdmf.apple.com
 DOMAIN-SUFFIX,xp.apple.com
