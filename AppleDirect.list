@@ -14,6 +14,10 @@ DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-KEYWORD,applemusic
 
+#iCloud Media
+DOMAIN-SUFFIX,me.icloud-content.com
+DOMAIN-SUFFIX,media.apple-dns.net
+
 ##  iCloud Music Library
 #DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
 #DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
@@ -32,6 +36,7 @@ DOMAIN-SUFFIX,tv.apple.com
 # Apple Unknown Special
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,p12-buy.itunes.apple.com
+DOMAIN,stocks-data-service.lb-apple.com.akadns.net
 DOMAIN,supportmetrics.apple.com
 DOMAIN,weather-edge.apple.com
 DOMAIN,kt-prod.ess.apple.com
