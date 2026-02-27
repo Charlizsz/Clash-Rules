@@ -1,0 +1,79 @@
+payload:
+  # Apple Music
+  - DOMAIN-SUFFIX,aod-ssl.itunes.apple.com
+  - DOMAIN-SUFFIX,radio-activity.itunes.apple.com
+  - DOMAIN-SUFFIX,aod.itunes.apple.com
+  - DOMAIN-SUFFIX,buy.itunes.apple.com
+  - DOMAIN-SUFFIX,client-api.itunes.apple.com
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+  - DOMAIN-SUFFIX,hls.itunes.apple.com
+  - DOMAIN-SUFFIX,play-edge.itunes.apple.com
+  - DOMAIN-SUFFIX,tv.apple.com
+  - DOMAIN-SUFFIX,musickit.net
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com
+  - DOMAIN-SUFFIX,music.apple.com
+  - DOMAIN-SUFFIX,ampaeservices.com
+  - DOMAIN-KEYWORD,applemusic
+
+  #iCloud Media
+  - DOMAIN-SUFFIX,me.icloud-content.com
+  - DOMAIN-SUFFIX,media.apple-dns.net
+  - DOMAIN-SUFFIX,cvws.apple-dns.net
+  - DOMAIN-SUFFIX,ce.apple-dns.net
+  - DOMAIN-SUFFIX,apptrailers.itunes.apple.com
+
+  ##  iCloud Music Library
+  #- DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
+  #- DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+  #- DOMAIN-SUFFIX,audio.itunes.apple.com
+  #- DOMAIN-SUFFIX,blobstore.apple.com
+
+  # Apple TV
+  - DOMAIN,hls-amt.itunes.apple.com
+  - DOMAIN,hls.itunes.apple.com
+  - DOMAIN,np-edge.itunes.apple.com
+  - DOMAIN,play-edge.itunes.apple.com
+  - DOMAIN,tv.applemusic.com
+  - DOMAIN,uts-api.itunes.apple.com
+  - DOMAIN-SUFFIX,tv.apple.com
+
+  # Apple Unknown Special
+  - DOMAIN,p14-buy.itunes.apple.com
+  - DOMAIN,p12-buy.itunes.apple.com
+  - DOMAIN,stocks-data-service.lb-apple.com.akadns.net
+  - DOMAIN,supportmetrics.apple.com
+  - DOMAIN,weather-edge.apple.com
+  - DOMAIN,kt-prod.ess.apple.com
+  - DOMAIN,known-issues.apple.com
+  - DOMAIN,wps.apple.com
+  - DOMAIN,radarsubmissions.apple.com
+  - DOMAIN,setup.icloud.com
+  - DOMAIN,lcdn-registration.apple.com
+  - DOMAIN,lcdn-locator.apple.com
+  - DOMAIN,xp-cdn.apple.com
+  - DOMAIN,notes-analytics-events.apple.com
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,calendars.icloud.com
+  - DOMAIN-SUFFIX,mail.me.com.akadns.net
+  - DOMAIN-SUFFIX,gc.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,time.apple.com
+  - DOMAIN-SUFFIX,time.asia.apple.com
+  - DOMAIN-SUFFIX,time-ios.g.aaplimg.com
+  - DOMAIN-SUFFIX,cstat.cdn-apple.com
+  - DOMAIN-SUFFIX,gdmf.apple.com
+  - DOMAIN-SUFFIX,xp.apple.com
+  - DOMAIN-SUFFIX,configuration.apple.com
+  - DOMAIN-SUFFIX,inappcheck.itunes.apple.com
+  - DOMAIN-SUFFIX,apple-livephotoskit.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,time.g.aaplimg.com
+  - DOMAIN-SUFFIX,mail.me.com
+  - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
+  - DOMAIN-KEYWORD,iphone
+  - DOMAIN-KEYWORD,contacts
+  - DOMAIN-KEYWORD,caldav
+  - DOMAIN-KEYWORD,fmfmobile
+  - DOMAIN-REGEX,^.+-quota\.icloud\.com$
+  - DOMAIN-SUFFIX,iosapps.itunes.apple.com
+  - DOMAIN-SUFFIX,developer.apple.com
