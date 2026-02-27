@@ -3,5 +3,5 @@ DOMAIN-SUFFIX,adguard-dns.com
 DOMAIN-SUFFIX,adguard.io
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-gateway.com
+DOMAIN-SUFFIX,dns.google
 IP-CIDR,168.95.192.1/32,no-resolve
-IP-CIDR,8.8.8.8/32,no-resolve
