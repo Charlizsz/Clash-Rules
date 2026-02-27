@@ -1,0 +1,90 @@
+payload:
+  # Direct
+  - DOMAIN-KEYWORD,boc
+  - DOMAIN-KEYWORD,tapngo
+  - DOMAIN-KEYWORD,icbc
+  - DOMAIN-KEYWORD,xhs
+  - DOMAIN-KEYWORD,rednote
+  - DOMAIN-KEYWORD,alicdn
+  - DOMAIN-KEYWORD,macaupass
+  - DOMAIN-KEYWORD,asus
+  - DOMAIN-KEYWORD,antbank
+  - DOMAIN-KEYWORD,logitech
+  - DOMAIN-SUFFIX,logi.com
+  - DOMAIN-SUFFIX,mo
+  - DOMAIN-SUFFIX,three.com.hk
+  - DOMAIN-SUFFIX,sosimhk.com
+  - DOMAIN-SUFFIX,immersivetranslate.cn
+  - DOMAIN-SUFFIX,immersivetranslate.com
+  - DOMAIN-SUFFIX,tdasz.com
+  - DOMAIN-SUFFIX,local.adguard.org
+  - DOMAIN-SUFFIX,mac-qiuchenly.yltfspace.com
+  - DOMAIN-SUFFIX,qiuchenly.us.kg
+  - DOMAIN-SUFFIX,blip.net
+  - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,letsencrypt.org
+  - DOMAIN-SUFFIX,futunn.com
+
+  #不知道是啥
+
+  # >> Academic
+
+  # 中国知网
+  - DOMAIN-KEYWORD,cnki
+  - DOMAIN-SUFFIX,cnki.net
+
+  # 万方
+  - DOMAIN-KEYWORD,wanfangdata
+
+  # 法律数据库
+  - DOMAIN-KEYWORD,pkulaw
+  - DOMAIN-KEYWORD,westlawchina
+
+  # 查找 DOI
+  - DOMAIN-SUFFIX,doi.org
+
+  # SCI 综合
+  - DOMAIN-SUFFIX,researchgate.net
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,blackwell-synergy.com
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,cabdirect.org
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,osapublishing.org
+
+  ## T & F 旗下
+  - DOMAIN-SUFFIX,taylorfrancis.com
+  - DOMAIN-SUFFIX,taylorandfrancis.com
+  - DOMAIN-SUFFIX,tandfonline.com
+
+  ## Willey 旗下
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,scienceconnect.io
+  - DOMAIN-KEYWORD,readcube
+
+  ## Clarivate 旗下
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-KEYWORD,wos
+  - DOMAIN-KEYWORD,webofscience
+  - DOMAIN-KEYWORD,webofknowledge
+
+  ## Elsevier 旗下
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,pdf.sciencedirectassets.com
+  - DOMAIN-SUFFIX,science.org
+  - DOMAIN-KEYWORD,sciencedirect
+  - DOMAIN-KEYWORD,elsevier
+  - DOMAIN-KEYWORD,deepdyve
+  - DOMAIN-KEYWORD,els-cdn
+
+  ## Oxford 出版系列
+  - DOMAIN-SUFFIX,oup.com
+
+  ## Springer 旗下
+  - DOMAIN-SUFFIX,springernature.com
+
+  # ACM (Association for Computing Machinery)
+  - DOMAIN-SUFFIX,acm.org
