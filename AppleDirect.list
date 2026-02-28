@@ -29,6 +29,7 @@ DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 
 # Apple Unknown Special
+DOMAIN,amd-infra.itunes.apple.com
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,p12-buy.itunes.apple.com
 DOMAIN,stocks-data-service.lb-apple.com.akadns.net
