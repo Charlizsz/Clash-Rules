@@ -10,12 +10,11 @@ payload:
   - DOMAIN-KEYWORD,asus
   - DOMAIN-KEYWORD,antbank
   - DOMAIN-KEYWORD,logitech
+  #  - DOMAIN-KEYWORD,immersivetranslate
   - DOMAIN-SUFFIX,logi.com
   - DOMAIN-SUFFIX,mo
   - DOMAIN-SUFFIX,three.com.hk
   - DOMAIN-SUFFIX,sosimhk.com
-  - DOMAIN-SUFFIX,immersivetranslate.cn
-  - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,tdasz.com
   - DOMAIN-SUFFIX,local.adguard.org
   - DOMAIN-SUFFIX,mac-qiuchenly.yltfspace.com
