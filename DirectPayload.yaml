@@ -60,9 +60,9 @@ payload:
   - DOMAIN-SUFFIX,tandfonline.com
 
   ## Willey 旗下
-  - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,scienceconnect.io
   - DOMAIN-KEYWORD,readcube
+  - DOMAIN-KEYWORD,wiley
 
   ## Clarivate 旗下
   - DOMAIN-SUFFIX,clarivate.com
