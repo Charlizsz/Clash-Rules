@@ -7,3 +7,4 @@ DOMAIN-SUFFIX,cvws.apple-dns.net
 DOMAIN-SUFFIX,ce.apple-dns.net
 DOMAIN-SUFFIX,apptrailers.itunes.apple.com
 DOMAIN-REGEX,^edge-.*\.icloud-content\.com$
+DOMAIN-REGEX,^.*-content\.icloud\.com$
