@@ -1,3 +1,5 @@
+
+# F1TV
 DOMAIN,d2n9h2wits23hf.cloudfront.net
 DOMAIN,f1prodlive.akamaized.net
 DOMAIN,mobile-collector.newrelic.com
@@ -6,3 +8,6 @@ DOMAIN-SUFFIX,f1esports.com
 DOMAIN-SUFFIX,f1manager.com
 DOMAIN-SUFFIX,f1play.com
 DOMAIN-SUFFIX,formula1.com
+
+# Apple TV F1
+DOMAIN,linear.tv.apple.com
