@@ -23,7 +23,7 @@ payload:
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,letsencrypt.org
-  - DOMAIN-SUFFIX,futunn.com
+  #  - DOMAIN-SUFFIX,futunn.com
 
   #不知道是啥
 
