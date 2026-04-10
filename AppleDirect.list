@@ -14,6 +14,10 @@ DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN-KEYWORD,applemusic
 
+# iCloud Sync
+DOMAIN-REGEX,^p[0-9]+-ckdatabase\.icloud\.com$
+DOMAIN-REGEX,^.+-quota\.icloud\.com$
+
 ##  iCloud Music Library
 #DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
 #DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
@@ -64,7 +68,5 @@ DOMAIN-KEYWORD,iphone
 DOMAIN-KEYWORD,contacts
 DOMAIN-KEYWORD,caldav
 DOMAIN-KEYWORD,fmfmobile
-DOMAIN-REGEX,^.+-quota\.icloud\.com$
 DOMAIN-SUFFIX,iosapps.itunes.apple.com
 DOMAIN-SUFFIX,developer.apple.com
-
