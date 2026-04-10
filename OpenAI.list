@@ -49,3 +49,4 @@ IP-ASN,20473,no-resolve
 
 # >> Cloudflare AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
+DOMAIN,challenges.cloudflare.com
