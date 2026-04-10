@@ -46,4 +46,3 @@ IP-CIDR,64.23.132.171/32,no-resolve
 
 # >> Cloudflare AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
-DOMAIN,challenges.cloudflare.com
