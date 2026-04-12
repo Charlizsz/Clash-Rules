@@ -32,6 +32,7 @@ DOMAIN,play-edge.itunes.apple.co
 DOMAIN-SUFFIX,tv.apple.com
 
 # Apple Unknown Special
+DOMAIN,tether.edge.apple
 DOMAIN,amd-infra.itunes.apple.com
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,p12-buy.itunes.apple.com
