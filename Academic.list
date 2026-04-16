@@ -14,35 +14,36 @@ DOMAIN-SUFFIX,osapublishing.org
 
 
 ## T & F 旗下
-DOMAIN-SUFFIX,taylorfrancis.com
-DOMAIN-SUFFIX,taylorandfrancis.com
-DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-KEYWORD,tandfonline
+DOMAIN-KEYWORD,taylorandfrancis
+DOMAIN-KEYWORD,taylorfrancis
 
 ## Willey 旗下
-DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,scienceconnect.io
 DOMAIN-KEYWORD,readcube
+DOMAIN-KEYWORD,willey
 
 ## Clarivate 旗下
-DOMAIN-SUFFIX,clarivate.com
 DOMAIN-KEYWORD,wos
 DOMAIN-KEYWORD,webofscience
 DOMAIN-KEYWORD,webofknowledge
+DOMAIN-KEYWORD,clarivate
 
 ## Elsevier 旗下
-DOMAIN-SUFFIX,scopus.com
-DOMAIN-SUFFIX,pdf.sciencedirectassets.com
 DOMAIN-SUFFIX,science.org
 DOMAIN-KEYWORD,sciencedirect
 DOMAIN-KEYWORD,elsevier
 DOMAIN-KEYWORD,deepdyve
 DOMAIN-KEYWORD,els-cdn
+DOMAIN-KEYWORD,sciencedirectassets
+DOMAIN-KEYWORD,scopus
 
 ## Oxford 出版系列
 DOMAIN-SUFFIX,oup.com
 
 ## Springer 旗下
 DOMAIN-SUFFIX,springernature.com
+DOMAIN-KEYWORD,springer
 
 # ACM (Association for Computing Machinery)
 DOMAIN-SUFFIX,acm.org
