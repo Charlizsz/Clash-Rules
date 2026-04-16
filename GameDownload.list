@@ -3,89 +3,89 @@
 # No China CDN domains are included. Those domains are included in non_ip/domestic
 
 # Steam
-.steamcontent.com
-# .steamserver.net
-.content.steampowered.com
-lancache.steamcontent.com
-# content1.steampowered.com
-# content2.steampowered.com
-# content3.steampowered.com
-# content4.steampowered.com
-# content5.steampowered.com
-# content6.steampowered.com
-# content7.steampowered.com
-# content8.steampowered.com
-content-origin.steampowered.com
-steam.apac.qtlglb.com
-steam.eca.qtlglb.com
-steam.naeu.qtlglb.com
-steam.ru.qtlglb.com
-edge.steam-dns.top.comcast.net
-steampipe.akamaized.net
-steampipe-kr.akamaized.net
-steampipe-partner.akamaized.net
+DOMAIN-SUFFIX,steamcontent.com
+# DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,content.steampowered.com
+DOMAIN,lancache.steamcontent.com
+# DOMAIN,content1.steampowered.com
+# DOMAIN,content2.steampowered.com
+# DOMAIN,content3.steampowered.com
+# DOMAIN,content4.steampowered.com
+# DOMAIN,content5.steampowered.com
+# DOMAIN,content6.steampowered.com
+# DOMAIN,content7.steampowered.com
+# DOMAIN,content8.steampowered.com
+DOMAIN,content-origin.steampowered.com
+DOMAIN,steam.apac.qtlglb.com
+DOMAIN,steam.eca.qtlglb.com
+DOMAIN,steam.naeu.qtlglb.com
+DOMAIN,steam.ru.qtlglb.com
+DOMAIN,edge.steam-dns.top.comcast.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,steampipe-kr.akamaized.net
+DOMAIN,steampipe-partner.akamaized.net
 
 # Epic
-.download.epicgames.com
-download2.epicgames.com
-download3.epicgames.com
-download4.epicgames.com
-epicgames-download1.akamaized.net
-fastly-download.epicgames.com
-.egdownload.fastly-edge.com
-.epicgamescdn.com
+DOMAIN-SUFFIX,download.epicgames.com
+DOMAIN,download2.epicgames.com
+DOMAIN,download3.epicgames.com
+DOMAIN,download4.epicgames.com
+DOMAIN,epicgames-download1.akamaized.net
+DOMAIN,fastly-download.epicgames.com
+DOMAIN-SUFFIX,egdownload.fastly-edge.com
+DOMAIN-SUFFIX,epicgamescdn.com
 
 # PlayStation
-.dl.playstation.net
+DOMAIN-SUFFIX,dl.playstation.net
 
 # Battle.net / Blizzard
-dist.blizzard.com
-blzddist1-a.akamaihd.net
-blzddist2-a.akamaihd.net
-blzddist3-a.akamaihd.net
-blzddistkr1-a.akamaihd.net
-blizzard.gcdn.cloudn.co.kr
-.cdn.blizzard.com
-level3.blizzard.com
+DOMAIN,dist.blizzard.com
+DOMAIN,blzddist1-a.akamaihd.net
+DOMAIN,blzddist2-a.akamaihd.net
+DOMAIN,blzddist3-a.akamaihd.net
+DOMAIN,blzddistkr1-a.akamaihd.net
+DOMAIN,blizzard.gcdn.cloudn.co.kr
+DOMAIN-SUFFIX,cdn.blizzard.com
+DOMAIN,level3.blizzard.com
 
 # Gog
-gog-cdn-fastly-cp77.gog.com
-gog-cdn-fastly.gog.com
-# gog-cdn-lumen.secure2.footprint.net
+DOMAIN,gog-cdn-fastly-cp77.gog.com
+DOMAIN,gog-cdn-fastly.gog.com
+# DOMAIN,gog-cdn-lumen.secure2.footprint.net
 
 # Xbox
-pf-cdn-content-prod.azureedge.net
-xvcf1.xboxlive.com
-xvcf2.xboxlive.com
-packagespc.xboxlive.com
-download.xbox.com
-assets1.xboxlive.com
-assets2.xboxlive.com
+DOMAIN,pf-cdn-content-prod.azureedge.net
+DOMAIN,xvcf1.xboxlive.com
+DOMAIN,xvcf2.xboxlive.com
+DOMAIN,packagespc.xboxlive.com
+DOMAIN,download.xbox.com
+DOMAIN,assets1.xboxlive.com
+DOMAIN,assets2.xboxlive.com
 
 # Ubisoft
-.cdn.ubi.com
+DOMAIN-SUFFIX,cdn.ubi.com
 
 # EA Origin
-.download.dm.origin.com
-origin-a.akamaihd.net
-.cdn.ea.com
-dlgarenanow-a.akamaihd.net
-cdn-patch.swtor.com
+DOMAIN-SUFFIX,download.dm.origin.com
+DOMAIN,origin-a.akamaihd.net
+DOMAIN-SUFFIX,cdn.ea.com
+DOMAIN,dlgarenanow-a.akamaihd.net
+DOMAIN,cdn-patch.swtor.com
 
 # Riot
-.dyn.riotcdn.net
+DOMAIN-SUFFIX,dyn.riotcdn.net
 
 # Bethesda
-.content.cdp.bethesda.net
-.download.cdp.bethesda.net
+DOMAIN-SUFFIX,content.cdp.bethesda.net
+DOMAIN-SUFFIX,download.cdp.bethesda.net
 
 # Misc
-static.hikarifield.co.jp
-download.hikarifield.co.jp
-gamedownloads-rockstargames-com.akamaized.net
+DOMAIN,static.hikarifield.co.jp
+DOMAIN,download.hikarifield.co.jp
+DOMAIN,gamedownloads-rockstargames-com.akamaized.net
 
 # Nintendo
-.wup.shop.nintendo.net
-.cdn.wup.shop.nintendo.net
-.wup.eshop.nintendo.net
-.cdn.nintendo.net
+DOMAIN-SUFFIX,wup.shop.nintendo.net
+DOMAIN-SUFFIX,cdn.wup.shop.nintendo.net
+DOMAIN-SUFFIX,wup.eshop.nintendo.net
+DOMAIN-SUFFIX,cdn.nintendo.net
