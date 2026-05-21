@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-REGEX,^p[0-9]+-escrowproxy\.icloud\.com$
 DOMAIN,fmipalservice.icloud.com
 DOMAIN,tether.edge.apple
+DOMAIN,help.apple.com
 DOMAIN,amd-infra.itunes.apple.com
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,p12-buy.itunes.apple.com
