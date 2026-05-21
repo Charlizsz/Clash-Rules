@@ -38,7 +38,7 @@ DOMAIN,help.apple.com
 DOMAIN,amd-infra.itunes.apple.com
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,p12-buy.itunes.apple.com
-DOMAIN,stocks-data-service.lb-apple.com.akadns.net
+# DOMAIN,stocks-data-service.lb-apple.com.akadns.net
 DOMAIN,supportmetrics.apple.com
 DOMAIN,weather-edge.apple.com
 DOMAIN,kt-prod.ess.apple.com
