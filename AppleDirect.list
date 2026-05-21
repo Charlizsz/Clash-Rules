@@ -17,6 +17,7 @@ DOMAIN-KEYWORD,applemusic
 # iCloud Sync
 DOMAIN-REGEX,^p[0-9]+-ckdatabase\.icloud\.com$
 DOMAIN-REGEX,^.+-quota\.icloud\.com$
+DOMAIN-REGEX,^p[0-9]+-fmip\.icloud\.com$
 
 ##  iCloud Music Library
 #DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
