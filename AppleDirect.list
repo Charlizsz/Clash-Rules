@@ -17,9 +17,14 @@ DOMAIN-KEYWORD,applemusic
 # iCloud Sync
 DOMAIN-REGEX,^p[0-9]+-ckdatabase\.icloud\.com$
 DOMAIN-REGEX,^.+-quota\.icloud\.com$
-DOMAIN-REGEX,^p[0-9]+-fmip\.icloud\.com$
 
-##  iCloud Music Library
+# Find My
+DOMAIN-REGEX,^p[0-9]+-fmip\.icloud\.com$
+DOMAIN,fmipalservice.icloud.com
+DOMAIN-REGEX,^p[0-9]+-escrowproxy\.icloud\.com$
+DOMAIN-KEYWORD,fmfmobile
+
+#  iCloud Music Library
 #DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
 #DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 #DOMAIN-SUFFIX,audio.itunes.apple.com
@@ -32,14 +37,12 @@ DOMAIN,play-edge.itunes.apple.co
 DOMAIN-SUFFIX,tv.apple.com
 
 # Apple Unknown Special
-DOMAIN-REGEX,^p[0-9]+-escrowproxy\.icloud\.com$
-DOMAIN,fmipalservice.icloud.com
 DOMAIN,tether.edge.apple
 DOMAIN,help.apple.com
 DOMAIN,amd-infra.itunes.apple.com
 DOMAIN,p14-buy.itunes.apple.com
 DOMAIN,p12-buy.itunes.apple.com
-# DOMAIN,stocks-data-service.lb-apple.com.akadns.net
+DOMAIN,stocks-data-service.lb-apple.com.akadns.net
 DOMAIN,supportmetrics.apple.com
 DOMAIN,weather-edge.apple.com
 DOMAIN,kt-prod.ess.apple.com
@@ -71,6 +74,5 @@ DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
 DOMAIN-KEYWORD,iphone
 DOMAIN-KEYWORD,contacts
 DOMAIN-KEYWORD,caldav
-DOMAIN-KEYWORD,fmfmobile
 DOMAIN-SUFFIX,iosapps.itunes.apple.com
 DOMAIN-SUFFIX,developer.apple.com
