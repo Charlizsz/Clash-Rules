@@ -44,3 +44,4 @@ IP-CIDR,101.32.198.91/24,no-resolve
 # IBKR
 DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-KEYWORD,ibkr
+DOMAIN-SUFFIX,ibllc.com
