@@ -20,6 +20,7 @@ DOMAIN-REGEX,^.+-quota\.icloud\.com$
 
 # Find My
 DOMAIN-REGEX,^p[0-9]+-fmip\.icloud\.com$
+DOMAIN-REGEX,^.+-fmipmobile\.icloud\.com$
 DOMAIN,fmipalservice.icloud.com
 DOMAIN-REGEX,^p[0-9]+-escrowproxy\.icloud\.com$
 DOMAIN-KEYWORD,fmfmobile
