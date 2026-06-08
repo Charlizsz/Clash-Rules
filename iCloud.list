@@ -1,4 +1,5 @@
 #iCloud Media
+DOMAIN-REGEX,^.+\.s3\.dualstack\..+\.amazonaws\.com$
 DOMAIN-SUFFIX,icloud-content.com
 #DOMAIN-SUFFIX,me.icloud-content.com
 #DOMAIN-SUFFIX,media.icloud-content.com
