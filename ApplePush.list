@@ -13,4 +13,7 @@ IP-CIDR6,2620:149:a44::/48,no-resolve
 IP-CIDR6,2a01:b740:a42::/48,no-resolve
 
 # Beta Program
-DOMAIN-SUFFIX,bpapi.apple.com
+DOMAIN,bpapi.apple.com
+
+# System Update
+DOMAIN,gdmf-ados.apple.com
