@@ -1,4 +1,5 @@
 # Apple Music
+DOMAIN-SUFFIX,DOMAIN-SUFFIX,amp-account.itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,amp-account.itunes.apple.com
 DOMAIN-SUFFIX,aod-ssl.itunes.apple.com
 DOMAIN-SUFFIX,radio-activity.itunes.apple.com
