@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,support.futunn.com
 DOMAIN-SUFFIX,download.futunn.com
 DOMAIN,cdn.futustatic.com
 DOMAIN-KEYWORD,futunn
+DOMAIN-KEYWORD,futu
 IP-CIDR,119.28.37.77/24,no-resolve
 IP-CIDR,43.153.233.212/24,no-resolve
 IP-CIDR,124.156.233.21/24,no-resolve
