@@ -26,9 +26,11 @@ DOMAIN-SUFFIX,ocsp2.apple.com
 DOMAIN-SUFFIX,gateway.icloud.com
 
 # (might be useless, still testing. for 26.1 beta 3)
+#  "^.+\.dsc[a-z0-9]+\.akamai\.net$" maybe the lastest methods in ios 27
 DOMAIN,cp2.cloudflare.com
 DOMAIN-SUFFIX,seed.siri.apple.com
 DOMAIN-SUFFIX,gateway.fe2.apple-dns.net
+DOMAIN-REGEX,^.+\.dsc[a-z0-9]+\.akamai\.net$
 DOMAIN-SUFFIX,smoot.apple.cn
 DOMAIN-KEYWORD,seed.siri.apple
 IP-CIDR,17.0.0.0/8,no-resolve
