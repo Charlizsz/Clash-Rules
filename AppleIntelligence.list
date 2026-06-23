@@ -34,12 +34,10 @@ DOMAIN-REGEX,^.+\.dsc[a-z0-9]+\.akamai\.net$
 DOMAIN-SUFFIX,smoot.apple.cn
 DOMAIN-KEYWORD,seed.siri.apple
 IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,172.224.24.0/24,no-resolve
 
 ;DOMAIN-SUFFIX,gateway.icloud.com.cn
 ;DOMAIN-SUFFIX,apps.mzstatic.com
 ;DOMAIN-SUFFIX,proxy.safebrowsing.apple
 
 # 2026.06.23 New found in iOS 27 beta2, all akamai domain.
-IP-CIDR,172.224.110.0/23,no-resolve
-IP-CIDR,172.224.111.0/23,no-resolve
+IP-CIDR,172.224.0.0/16,no-resolve
