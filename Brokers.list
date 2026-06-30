@@ -167,6 +167,8 @@ IP-CIDR,42.194.152.0/24,no-resolve
 IP-CIDR,43.132.106.6/32,no-resolve
 IP-CIDR,43.132.106.8/32,no-resolve
 IP-CIDR,43.132.138.67/32,no-resolve
+IP-CIDR,43.162.221.0/16,no-resolve
+IP-CIDR,43.163.57.0/24,no-resolve
 IP-CIDR,1.15.158.0/24,no-resolve
 
 ## 老虎 / 长桥 / IBKR 等不确定节点 (共 12 个多云中转节点)
