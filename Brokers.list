@@ -1,16 +1,14 @@
-# IBKR
+# NAME: Broker
+# AUTHOR: Charli
+# REPO: https://github.com/Allen2023/broker-rules
+# UPDATED: 2026-06-13
+
+## IBKR / 盈透证券
 DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-KEYWORD,ibkr
 DOMAIN-SUFFIX,ibllc.com
 
-# NAME: Broker
-# AUTHOR: MsMc
-# REPO: https://github.com/Allen2023/broker-rules
-# UPDATED: 2026-06-13
-# DOMAIN-SUFFIX: 68
-# DOMAIN: 18
-# IP-CIDR: 63
-# TOTAL: 149
+## 富途 / Futu / 富途牛牛
 DOMAIN-SUFFIX,futuhk.com
 DOMAIN-SUFFIX,futu.link
 DOMAIN-SUFFIX,futunn.com
@@ -35,60 +33,13 @@ DOMAIN-SUFFIX,futuholdings.com
 DOMAIN-SUFFIX,futuesop.com
 DOMAIN-SUFFIX,futubull.cn
 DOMAIN-SUFFIX,futuchain.com
-DOMAIN-SUFFIX,moomoo.com
-DOMAIN-SUFFIX,lbctrl.com
-DOMAIN-SUFFIX,lbkrs.com
-DOMAIN-SUFFIX,wbrks.com
-DOMAIN-SUFFIX,longportapp.cn
-DOMAIN-SUFFIX,longportapp.com
-DOMAIN-SUFFIX,longbridgeapp.com
-DOMAIN-SUFFIX,longbridge.hk
-DOMAIN-SUFFIX,longbridgehk.com
-DOMAIN-SUFFIX,longbridge.com
-DOMAIN-SUFFIX,longbridge.global
-DOMAIN-SUFFIX,itiger.com
-DOMAIN-SUFFIX,itigerup.com
-DOMAIN-SUFFIX,laohu8.com
-DOMAIN-SUFFIX,tigerbbs.cn
-DOMAIN-SUFFIX,tigerbbs.com
-DOMAIN-SUFFIX,tigerfintech.com
-DOMAIN-SUFFIX,tradeup.com
-DOMAIN-SUFFIX,xiaohu8.com
-DOMAIN-SUFFIX,zhijianfengyi.cn
-DOMAIN-SUFFIX,zhijianfengyi.com
-DOMAIN-SUFFIX,schwab.com
-DOMAIN-SUFFIX,schwab.com.cn
-DOMAIN-SUFFIX,schwab.com.hk
-DOMAIN-SUFFIX,schwab.co.uk
 DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,futuau.com
 DOMAIN-SUFFIX,futuhkapp.com
 DOMAIN-SUFFIX,fututrade.com
 DOMAIN-SUFFIX,fututrustee.com
 DOMAIN-SUFFIX,cdn.futustatic.com
-DOMAIN-SUFFIX,api.moomoobull.com
-DOMAIN-SUFFIX,moomooequity.com
-DOMAIN-SUFFIX,moomootrustee.com
-DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
-DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
-DOMAIN-SUFFIX,shortconn.im.qcloud.com
-DOMAIN-SUFFIX,api.lbkrs.com
-DOMAIN-SUFFIX,api-gl.lbkrs.com
-DOMAIN-SUFFIX,longbridge.cloud
-DOMAIN-SUFFIX,longbridge.sg
-DOMAIN-SUFFIX,tigerbrokers.com
-DOMAIN-SUFFIX,tigerbrokers.net
-DOMAIN-SUFFIX,tigerbrokers.nz
 DOMAIN,cdn.futustatic.com
-DOMAIN,quote.longbridge.global
-DOMAIN,trade.longportapp.com
-DOMAIN,openapi.longbridge.com
-DOMAIN,openapi-quote.longbridge.com
-DOMAIN,openapi-trade.longbridge.com
-DOMAIN,openapi.longbridge.cn
-DOMAIN,openapi-quote.longbridge.cn
-DOMAIN,openapi-trade.longbridge.cn
-DOMAIN,cg.play-analytics.com
 DOMAIN,qtcard.futunn.com
 DOMAIN,qtcardfthk.futufin.com
 DOMAIN,openapi.futunn.com
@@ -99,22 +50,77 @@ DOMAIN,support.futunn.com
 DOMAIN,download.futunn.com
 DOMAIN-KEYWORD,futunn
 DOMAIN-KEYWORD,futu
+
+## moomoo / 富途系国际版
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,api.moomoobull.com
+DOMAIN-SUFFIX,moomooequity.com
+DOMAIN-SUFFIX,moomootrustee.com
+
+## 长桥 / Longbridge
+DOMAIN-SUFFIX,longportapp.cn
+DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longbridge.cloud
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN,quote.longbridge.global
+DOMAIN,trade.longportapp.com
+DOMAIN,openapi.longbridge.com
+DOMAIN,openapi-quote.longbridge.com
+DOMAIN,openapi-trade.longbridge.com
+DOMAIN,openapi.longbridge.cn
+DOMAIN,openapi-quote.longbridge.cn
+DOMAIN,openapi-trade.longbridge.cn
+
+## 长桥 / Longbridge 疑似后端辅助域名
+# These are grouped with Longbridge based on naming/context, but are less self-evident than longbridge.* domains.
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,wbrks.com
+DOMAIN-SUFFIX,api.lbkrs.com
+DOMAIN-SUFFIX,api-gl.lbkrs.com
+
+## 老虎证券 / Tiger Brokers / TradeUP
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,itigerup.com
+DOMAIN-SUFFIX,laohu8.com
+DOMAIN-SUFFIX,tigerbbs.cn
+DOMAIN-SUFFIX,tigerbbs.com
+DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tradeup.com
+DOMAIN-SUFFIX,xiaohu8.com
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.net
+DOMAIN-SUFFIX,tigerbrokers.nz
+DOMAIN,cg.play-analytics.com
+
+## 老虎证券 / Tiger Brokers 疑似辅助域名
+# These are likely auxiliary/service domains used by Tiger-related services, but are not broker-branded domains.
+DOMAIN-SUFFIX,zhijianfengyi.cn
+DOMAIN-SUFFIX,zhijianfengyi.com
+
+## Charles Schwab / 嘉信理财
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwab.com.cn
+DOMAIN-SUFFIX,schwab.com.hk
+DOMAIN-SUFFIX,schwab.co.uk
+
+## 第三方 SDK / 云服务辅助域名（不直接归入某一家券商）
+DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
+DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
+DOMAIN-SUFFIX,shortconn.im.qcloud.com
+
+
+## 富途 / Futu / 富途牛牛
 IP-CIDR,119.28.37.0/24,no-resolve
 IP-CIDR,43.153.233.0/24,no-resolve
 IP-CIDR,124.156.233.0/24,no-resolve
 IP-CIDR,43.153.191.0/24,no-resolve
 IP-CIDR,101.32.198.0/24,no-resolve
-IP-CIDR,47.243.118.180/32,no-resolve
-IP-CIDR,47.243.107.98/32,no-resolve
-IP-CIDR,8.218.30.161/32,no-resolve
-IP-CIDR,18.166.204.203/32,no-resolve
-IP-CIDR,18.162.38.24/32,no-resolve
-IP-CIDR,18.163.254.94/32,no-resolve
-IP-CIDR,47.57.180.81/32,no-resolve
-IP-CIDR,34.226.76.162/32,no-resolve
-IP-CIDR,54.172.233.156/32,no-resolve
-IP-CIDR,43.152.182.46/32,no-resolve
-IP-CIDR,119.28.218.0/23,no-resolve
 IP-CIDR,1.14.242.0/23,no-resolve
 IP-CIDR,14.152.91.0/24,no-resolve
 IP-CIDR,38.65.217.0/24,no-resolve
@@ -162,4 +168,18 @@ IP-CIDR,43.132.106.6/32,no-resolve
 IP-CIDR,43.132.106.8/32,no-resolve
 IP-CIDR,43.132.138.67/32,no-resolve
 IP-CIDR,1.15.158.0/24,no-resolve
-IP-CIDR,43.162.222.168,no-resolve
+
+## 老虎 / 长桥 / IBKR 等不确定节点 (共 12 个多云中转节点)
+
+IP-CIDR,47.243.118.180/32,no-resolve
+IP-CIDR,47.243.107.98/32,no-resolve
+IP-CIDR,8.218.30.161/32,no-resolve
+IP-CIDR,18.166.204.203/32,no-resolve
+IP-CIDR,18.162.38.24/32,no-resolve
+IP-CIDR,18.163.254.94/32,no-resolve
+IP-CIDR,47.57.180.81/32,no-resolve
+IP-CIDR,34.226.76.162/32,no-resolve
+IP-CIDR,54.172.233.156/32,no-resolve
+IP-CIDR,43.152.182.46/32,no-resolve
+IP-CIDR,119.28.218.0/23,no-resolve
+IP-CIDR,43.162.222.168/32,no-resolve
