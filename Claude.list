@@ -32,3 +32,8 @@ DOMAIN,cdn.usefathom.com
 # IP 段 / ASN 兜底
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
+
+# 兜底
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,clau.de
