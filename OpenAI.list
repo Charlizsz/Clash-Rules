@@ -42,6 +42,8 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,openaiassets.blob.core.windows.net
+DOMAIN-SUFFIX,openai.qualtrics.com
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 
