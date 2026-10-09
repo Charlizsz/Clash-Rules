@@ -24,6 +24,10 @@ DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,letsencrypt.org
 
+# WeChat HK
+IP-CIDR,43.159.0.0/16
+IP-CIDR,43.129.0.0/16
+
 #不知道是啥
 
 # >> Academic Direct
