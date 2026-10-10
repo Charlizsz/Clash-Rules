@@ -41,3 +41,4 @@ IP-CIDR,17.0.0.0/8,no-resolve
 
 # 2026.06.23 New found in iOS 27 beta2, all akamai domain.
 IP-CIDR,172.224.0.0/16,no-resolve
+DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
