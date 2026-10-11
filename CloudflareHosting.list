@@ -1,0 +1,49 @@
+# Updated: 2026.10.11
+# Based on https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare/Cloudflare.list and https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflarecn/Cloudflarecn.list
+
+# 1. Shared hosting, content delivery, and third-party-site assets.
+# Custom domains are handled by specific rules above or by the IP fallback below.
+# Only DNS hosting at Cloudflare does not imply HTTP traffic uses Cloudflare IPs.
+DOMAIN-SUFFIX,cloudflareinsights-cn.com
+DOMAIN-SUFFIX,cf-ipfs.com
+DOMAIN-SUFFIX,cloudflare-ipfs.com
+DOMAIN-SUFFIX,cloudflareapps.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflarepreview.com
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,trycloudflare.com
+DOMAIN-SUFFIX,videodelivery.net
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,r2.dev
+DOMAIN-SUFFIX,imagedelivery.net
+
+# 2. Cloudflare shared-IP fallback. Keep below ALL specific website/application domain rules.
+# no-resolve is intentionally removed so unresolved hostnames can reach this fallback via DNS.
+# This does not change your DNS settings; the full DNS/TUN configuration was not supplied.
+# Do not interpret this as exhaustive identification of every Cloudflare customer/service.
+# Source: https://www.cloudflare.com/ips/ (reviewed 2026-10-11).
+# Source: https://wiki.metacubex.one/config/rules/
+IP-CIDR,103.21.244.0/22
+IP-CIDR,103.22.200.0/22
+IP-CIDR,103.31.4.0/22
+IP-CIDR,104.16.0.0/13
+IP-CIDR,104.24.0.0/14
+IP-CIDR,108.162.192.0/18
+IP-CIDR,131.0.72.0/22
+IP-CIDR,141.101.64.0/18
+IP-CIDR,162.158.0.0/15
+IP-CIDR,172.64.0.0/13
+IP-CIDR,173.245.48.0/20
+IP-CIDR,188.114.96.0/20
+IP-CIDR,190.93.240.0/20
+IP-CIDR,197.234.240.0/22
+IP-CIDR,198.41.128.0/17
+IP-CIDR6,2400:cb00::/32
+IP-CIDR6,2405:8100::/32
+IP-CIDR6,2405:b500::/32
+IP-CIDR6,2606:4700::/32
+IP-CIDR6,2803:f800::/32
+IP-CIDR6,2a06:98c0::/29
+IP-CIDR6,2c0f:f248::/32
