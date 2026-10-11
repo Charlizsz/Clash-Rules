@@ -79,3 +79,5 @@ DOMAIN-KEYWORD,contacts
 DOMAIN-KEYWORD,caldav
 DOMAIN-SUFFIX,iosapps.itunes.apple.com
 DOMAIN-SUFFIX,developer.apple.com
+IP-CIDR,17.248.225.0/24,no-resolve
+IP-CIDR,17.253.150.0/24,no-resolve
