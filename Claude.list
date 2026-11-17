@@ -37,3 +37,6 @@ IP-CIDR6,2607:6bc0::/32,no-resolve
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,clau.de
+DOMAIN-KEYWORD,datadighq
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,antspace.dev
