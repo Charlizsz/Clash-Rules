@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,blip.net
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,letsencrypt.org
+DOMAIN-SUFFIX,ovscdns.com
 
 # WeChat HK
 IP-CIDR,43.159.0.0/16
