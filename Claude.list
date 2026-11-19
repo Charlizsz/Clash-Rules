@@ -21,13 +21,16 @@ DOMAIN,anthropic-com.ghost.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,datadoghq
 DOMAIN-KEYWORD,sift
 
 # 客服 / 第三方 widget
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,modelcontextprotocol.io
+DOMAIN-SUFFIX,growthbook.io
+DOMAIN-SUFFIX,withpersona.com
 
 # IP 段 / ASN 兜底
 IP-CIDR,160.79.104.0/21,no-resolve
